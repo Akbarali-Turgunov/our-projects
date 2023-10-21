@@ -1,0 +1,32 @@
+.our {
+  background: #f6f6f8;
+  padding: 70px 0;
+  &__row {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__col {
+    max-width: 104px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+  }
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+  }
+}

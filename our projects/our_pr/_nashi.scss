@@ -1,0 +1,18 @@
+.nashi {
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+  height: 490px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+  }
+  &__title {
+    max-width: 540px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,55 @@
+.rasmlar {
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: -232px;
+    }
+
+    &__card {
+        max-width: 350px;
+    }
+
+    &__qator {
+        display: flex;
+        margin: 30px 0;
+    }
+
+    &__raqam {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4985FF;
+        margin-right: 5px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        margin-bottom: 30px;
+    }
+
+    &__href {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: #4985FF;
+    }
+}

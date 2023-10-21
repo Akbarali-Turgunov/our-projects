@@ -1,0 +1,35 @@
+.uchtarasm {
+    background-color: #F6F6F8;
+    padding: 100px 0 130px;
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        max-width: 730px;
+        margin: 0 auto;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        margin: 70px 0 50px;
+    }
+    &__batn{
+        text-align: center;
+    }
+}
